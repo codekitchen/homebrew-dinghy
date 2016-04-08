@@ -5,7 +5,6 @@ class Dinghy < Formula
   head "https://github.com/codekitchen/dinghy.git", :branch => :master
 
   depends_on "unfs3"
-  depends_on "dnsmasq"
 
   def install
     bin.install "bin/dinghy"
