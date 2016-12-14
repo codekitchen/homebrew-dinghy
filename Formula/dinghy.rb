@@ -7,6 +7,9 @@ class Dinghy < Formula
   depends_on "homebrew/boneyard/unfs3"
 
   def install
+    if head?
+      inreplace "cli/dinghy/version.rb", /DINGHY_VERSION=.*/, "DINGHY_VERSION='#{version}'"
+    end
     bin.install "bin/dinghy"
     bin.install "bin/_dinghy_command"
     prefix.install "cli"
