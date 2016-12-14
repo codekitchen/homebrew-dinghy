@@ -4,7 +4,7 @@ class Dinghy < Formula
   url "https://github.com/codekitchen/dinghy.git", :tag => "v4.4.2", :revision => "0a4f8d2ea2dd9d31b1555ff290446d6650a546c0"
   head "https://github.com/codekitchen/dinghy.git", :branch => :master
 
-  depends_on "unfs3"
+  depends_on "homebrew/boneyard/unfs3"
 
   def install
     bin.install "bin/dinghy"
