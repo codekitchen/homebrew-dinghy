@@ -15,7 +15,7 @@ class Dinghy < Formula
     prefix.install "cli"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     Run `dinghy create` to create the VM, then `dinghy up` to bring up the VM and services.
     EOS
   end
