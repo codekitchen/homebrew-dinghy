@@ -1,7 +1,7 @@
 class Dinghy < Formula
   desc "faster, friendlier Docker on OS X"
   homepage "https://github.com/codekitchen/dinghy"
-  url "https://github.com/codekitchen/dinghy.git", :tag => "v4.6.1", :revision => "da8fc0530f5322f31f35214771354172c91fbead"
+  url "https://github.com/codekitchen/dinghy.git", :tag => "v4.6.3", :revision => "05349a35ee9858dce3497ce0b90eb5f2dbb1bca8"
   head "https://github.com/codekitchen/dinghy.git", :branch => :master
 
   depends_on "codekitchen/dinghy/unfs3"
