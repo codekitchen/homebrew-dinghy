@@ -7,8 +7,8 @@ class Unfs3 < Formula
   # See: https://github.com/codekitchen/dinghy/issues/269#issuecomment-391007703
   url "https://github.com/derfian/unfs3.git", :branch => "higher-resolution-setattr"
   version "0.9.23-pre"
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
+  depends_on "autoconf"
+  depends_on "automake"
 
   # Temporarily keeping 0.9.22 release as 'devel' to ease switching back to test
   devel do
@@ -19,8 +19,8 @@ class Unfs3 < Formula
   head do
     url "http://svn.code.sf.net/p/unfs3/code/trunk/"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
+    depends_on "autoconf"
+    depends_on "automake"
   end
 
   def install
