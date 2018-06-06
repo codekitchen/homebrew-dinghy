@@ -1,7 +1,7 @@
 class Dinghy < Formula
   desc "faster, friendlier Docker on OS X"
   homepage "https://github.com/codekitchen/dinghy"
-  url "https://github.com/codekitchen/dinghy.git", :tag => "v4.6.3", :revision => "05349a35ee9858dce3497ce0b90eb5f2dbb1bca8"
+  url "https://github.com/codekitchen/dinghy.git", :tag => "v4.6.4", :revision => "bed8ce2a85168f972e3576a3b8f7fb3a934ca94b"
   head "https://github.com/codekitchen/dinghy.git", :branch => :master
 
   # Dinghy version hasn't changed, but unfs3 dependency has
