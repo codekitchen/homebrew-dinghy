@@ -4,9 +4,6 @@ class Dinghy < Formula
   url "https://github.com/codekitchen/dinghy.git", :tag => "v4.6.4", :revision => "bed8ce2a85168f972e3576a3b8f7fb3a934ca94b"
   head "https://github.com/codekitchen/dinghy.git", :branch => :master
 
-  # Dinghy version hasn't changed, but unfs3 dependency has
-  revision 1
-
   depends_on "codekitchen/dinghy/unfs3"
 
   def install
