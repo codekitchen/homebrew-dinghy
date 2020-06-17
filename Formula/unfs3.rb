@@ -10,12 +10,6 @@ class Unfs3 < Formula
   depends_on "autoconf"
   depends_on "automake"
 
-  # Temporarily keeping 0.9.22 release as 'devel' to ease switching back to test
-  devel do
-    url "https://downloads.sourceforge.net/project/unfs3/unfs3/0.9.22/unfs3-0.9.22.tar.gz"
-    sha256 "482222cae541172c155cd5dc9c2199763a6454b0c5c0619102d8143bb19fdf1c"
-  end
-
   head do
     url "http://svn.code.sf.net/p/unfs3/code/trunk/"
 
